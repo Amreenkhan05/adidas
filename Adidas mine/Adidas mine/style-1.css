@@ -1,0 +1,91 @@
+@media (max-width:768px) {    
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+    .navbar ul li{
+        display: none;
+    }    
+    .nav-part{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .span-1 img{
+        /* width: 80px; */
+    }
+    .span-2{
+        display: none;
+    }
+    
+    .span-2 ul {
+        display: none;
+    }
+    .span-3{
+        display: none;
+    }
+
+    /* ............container -1..... */
+    .container-1{
+        width: 100%;
+        height: auto;
+    }
+    
+    .container-1 p{
+        /* width: 100%; */
+        /* height: 10vh; */
+        /* font-size:15px; */
+        /* text-align: center;   */
+    }
+    #adidas{
+        height: 10vh;
+        font-size:15px;
+        text-align: center; 
+    }
+    .first-pg{
+        width:100%;
+        height:90vh;
+        background-image:url(./img/first-pg.jpg);
+        background-size: cover;
+        background-position:center;
+        display:flex;
+        justify-content: end;
+        flex-direction:column;
+        padding-inline:100px;
+        padding-block:40px;
+    }
+    .first-pg h1{
+        color:white;
+        margin-bottom: 15px;
+        font-size: 45px;
+        font-weight: 700;
+        
+    }
+    .first-pg h5{
+        padding-bottom: 30px;
+        color: white;
+        font-size: 20px;
+        font-weight: 40;
+    }
+    .first-pg button{
+        margin-bottom: 150px;
+        
+        width: 170px;
+        height: 40px;
+        border: 1px solid black;
+        background-color: rgba(250, 235, 168, 0.856);
+        font-weight: 700;
+    }
+
+    .deals{
+        /* flex-direction: column; */
+    }
+/* 
+    .box-N{
+        height: 150vh;
+    } */
+
+    
+ }
